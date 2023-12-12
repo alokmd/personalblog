@@ -1,0 +1,79 @@
+
+body{
+    background-color:none;
+}
+.article{
+  font-size: 30px;
+  position: relative;
+  top: 60px;
+}
+.article3{
+    font-size: 25px;
+    position: relative;
+    top: 65px;
+    width: 200%;
+}
+.articlep{
+    font-size: 18px;
+    /* position: relative; */
+    top:68px;
+}
+.logo img{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 30px;
+    left: -998px;
+}
+.logo {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 30px;
+    left: -998px;
+}
+.navbar{
+ width: 1000px;
+ font-size: 10px;
+}
+.text1,.text2,.text3,.text4{
+
+    font-size: 20px;
+}
+.article3::after{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 31%;
+    border-left:1px solid #212428;
+    left:0px;
+    animation: typing 3s steps(1000) infinite;
+    background: #212428;
+}
+.find{
+    position: relative;
+    top:100px;
+     left: 69px;
+}
+.logo1 img{
+    position: relative;
+    top:120px;
+    left: 60px;
+}
+.logo2 img{
+    position: relative;
+    top:120px;
+    left: 65px;
+}
+.title{
+    font-size: 30px;
+    padding-top: 20px;
+}
+/* .contactus form{
+    position: relative;
+    left:-450px;
+} */
+.contactus {
+    position: relative;
+    left:-450px;
+}
